@@ -1,0 +1,14 @@
+package com
+import com.A
+rule "my first name is"
+when
+a:A(name=="gcs");
+then 
+System.out.println("hello gcs");
+end
+rule "my second name is"
+when
+a:A(message=="reddy");
+then 
+System.out.println("hai");
+end
